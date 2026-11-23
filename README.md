@@ -1,4 +1,4 @@
-# COC Vision Bot
+# Vision Automation Bot
 
 **A Windows desktop bot that plays a mobile strategy game by *looking at the screen*: computer vision to find buttons, OCR to read numbers, a watchdog that recovers when things go wrong, and a polished control panel on top.**
 
@@ -125,6 +125,6 @@ Computer vision · OCR · concurrent programming · state machines and failure r
 
 ---
 
-*Not affiliated with, endorsed by, or connected to Supercell. Clash of Clans is a trademark of Supercell Oy. No game assets are included in this repository.*
+*Not affiliated with, endorsed by, or connected to any game publisher. No game assets are included in this repository.*
 
 Built by Ali ([@Ali-Siaj](https://github.com/Ali-Siaj)). The source code is private.
