@@ -4,7 +4,7 @@
 
 `Python` · `OpenCV` · `Tesseract OCR` · `Tkinter` · `multithreading` · `Win32 (ctypes)` · `unittest`
 
-> **About this repository.** The bot is commercial, licensed software, so **its source code, image templates and licensing backend are not published here**. This repo is a technical showcase: what the system does, how it is built, the problems I hit while running it for hours unattended, and how I solved them. Everything below describes the real, working application.
+> **About this repository.** This is a personal project that I built and use for my own testing; it is not sold or distributed. **Its source code, image templates and licensing backend are private and not published here.** This repo is a technical showcase: what the system does, how it is built, the problems I hit while running it for hours unattended, and how I solved them. Everything below describes the real, working application.
 
 <p align="center">
   <img src="assets/ui-paused.png" width="780" alt="The bot's control panel while a run is paused">
@@ -19,7 +19,7 @@
 | Concurrency | **5 cooperating worker threads**, plus listeners for global mouse and keyboard hotkeys |
 | Vision | template matching on a screen normalised to 1920×1080, two separate OCR pipelines, scale-tolerant pop-up detection |
 | Recovery | a **watchdog** that recognises 16 game screens and pop-ups from pictures and backs out of each one |
-| Shipping | packaged as a standalone Windows `.exe`, with server-checked licensing and encrypted local secrets |
+| Packaging | built as a standalone Windows `.exe`, with server-checked licensing and encrypted local secrets |
 | Endurance | run unattended for **15+ hours in a single session** during development |
 
 ## What it does
